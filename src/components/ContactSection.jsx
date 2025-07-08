@@ -7,8 +7,8 @@ import {
   Send,
   Twitch,
   Twitter,
-  YouTube,
-  Github
+  PlayCircle,
+  Code2
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -94,10 +94,10 @@ export const ContactSection = () => {
                   <Linkedin />
                 </a>
                 <a href="https://www.youtube.com/@abcoder" target="_blank">
-                  <YouTube />
+                  <PlayCircle />
                 </a>
                 <a href="https://www.github.com/ab-yusufi" target="_blank">
-                  <Github />
+                  <Code2 />
                 </a>
             
               </div>
