@@ -59,7 +59,7 @@ export const ContactSection = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    abdurrahmanyusufi478@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export const ContactSection = () => {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +91 8698447832
                   </a>
                 </div>
               </div>
@@ -81,30 +81,23 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
-                  <h4 className="font-medium"> Location</h4>
-                  <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
-                  </a>
-                </div>
+              
               </div>
             </div>
 
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="www.linkedin.com/in/yusufi-abdurrahman" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
+                <a href="https://www.youtube.com/@abcoder" target="_blank">
+                  <YouTube />
                 </a>
-                <a href="#" target="_blank">
-                  <Instagram />
+                <a href="https://www.github.com/ab-yusufi" target="_blank">
+                  <Github />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
+            
               </div>
             </div>
           </div>
