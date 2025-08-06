@@ -3,32 +3,69 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Quiz Making App",
+    description: "A quiz making web app using MERN stack",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["ReactJS", "Bootstrap", "NodeJS", "ExpressJS", "MongoDB"],
+    demoUrl: "https://quizplayback.onrender.com/",
+    githubUrl: "https://github.com/ab-yusufi/quiz-play",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "CSS Animations and Effects",
+    description: "Cool CSS Animations and Effects",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://abkoder.onrender.com/",
+    githubUrl: "https://github.com/ab-yusufi/abkoder",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+    title: "Zoom Clone",
+    description: "Zoom Like Web App for Video Calling and Online Meetings",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Node.js", "NextJS", "MongoDB", "Tailwind CSS", "Clerk"],
+    demoUrl: "https://booom.onrender.com/",
+    githubUrl: "https://github.com/ab-yusufi/jsm-zoom-clone",
+  },
+  {
+    id: 4,
+    title: "Todo App",
+    description: "Todo Application using MERN stack",
+    image: "/projects/project4.png",
+    tags: ["React", "Node.js", "NextJS", "MongoDB"],
+    demoUrl: "https://mern-todo-bnkr.onrender.com/",
+    githubUrl: "https://github.com/ab-yusufi/mern-todo",
+  },
+  {
+    id: 5,
+    title: "Geometry Calculator",
+    description:
+      "Geometry Calculator made using ReactJS. Calculate distance, midpoint by entering line equations and point coordinates.",
+    image: "/projects/project5.png",
+    tags: ["ReactJS"],
+    demoUrl: "https://domathing.onrender.com",
+    githubUrl: "https://github.com/ab-yusufi/domathing",
+  },
+  {
+    id: 6,
+    title: "Login UI",
+    description:
+      "Login UI with Sign Up and Sign In Pages along with social media login icons",
+    image: "/projects/project6.png",
+    tags: ["Android", "Java"],
+    demoUrl: "/projects/project6.png",
+    githubUrl: "https://github.com/ab-yusufi/android-login-ui",
+  },
+  {
+    id: 7,
+    title: "Todo App",
+    description:
+      "Todo App as per Eisenhower Matrix for better productivity",
+    image: "/projects/project7.png",
+    tags: ["Android", "Java", "RoomDB"],
+    demoUrl: "/projects/project7.png",
+    githubUrl: "https://github.com/ab-yusufi/MyTodos_Android_Java",
   },
 ];
 
@@ -38,7 +75,7 @@ export const ProjectsSection = () => {
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
-          Featured <span className="text-primary"> Projects </span>
+          My <span className="text-primary"> Projects </span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -100,7 +137,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/ab-yusufi"
           >
             Check My Github <ArrowRight size={16} />
           </a>
