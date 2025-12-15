@@ -4,9 +4,9 @@ export const Footer = () => {
   return (
     <footer className="py-12 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center">
       {" "}
-      <p className="text-sm text-muted-foreground">
+      <p className="text-sm text-muted-foreground text-center>
         {" "}
-        &copy; {new Date().getFullYear()} Pedrotech.co. All rights reserved.
+        Abdurrahman Yusufi aka AB Coder
       </p>
       <a
         href="#hero"
